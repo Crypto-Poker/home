@@ -129,6 +129,18 @@
     }
   });
 
+  var $dropdownLineTrigger = $('.nav__dropdown-line-trigger');
+  $dropdownLineTrigger.on('click', function () {
+
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+    }
+
+    else {
+      $(this).addClass("active");
+    }
+  });
+
   $('.nav__dropdown').on('click', '> a', function(e) {
     e.preventDefault();
   });

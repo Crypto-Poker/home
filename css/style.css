@@ -3627,7 +3627,7 @@ body.nav--overlay-open {
     .nav__dropdown-line-trigger.active  .nav__dropdown-menu {
       display: block; }
     .video {
-      width: 50%;
+      width: 100%;
       height: 300px;
     }
   .logo-wrap {
